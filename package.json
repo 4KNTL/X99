@@ -1,0 +1,21 @@
+{
+  "name": "x99-bot",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "bun --watch src/index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "baileys": "7.0.0-rc.6",
+    "node-cache": "^5.1.2",
+    "pino": "^10.1.0",
+    "pino-pretty": "^13.1.2"
+  }
+}
